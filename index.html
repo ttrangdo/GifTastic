@@ -1,0 +1,63 @@
+
+<html lang="en-us"> 
+
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+
+    <title> TRANG DO | gifTastic</title>
+
+</head>
+
+<body>
+<header>
+<div class="jumbotron">
+<div class="container">
+    <p id= "disney"> disney gifs </p>
+    <p id= "quote"> search your favorite movies and relive your childhood.</p>
+</div>
+</div>  
+</header>
+
+
+
+<form id= "disney-form">
+    <p id= "search">
+    <label for="movie-input">Search a Disney Movie!</label>
+    <input type="text" id="movie-input">
+    </p>
+    <br>
+
+    <!-- Button triggers new movie to be added -->
+    <p id= "submitButton">
+    <input id="add-movie" type="submit" value="add the clip!">
+    </p>
+</form>
+
+<br>
+
+<!-- Rendered Buttons -->
+<div id= "disneyButtons">
+
+</div>
+
+<br>
+<div id="disney-movies">
+
+
+</div>
+
+
+
+<!-- javascript -->
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>

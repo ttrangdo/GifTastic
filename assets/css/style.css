@@ -1,0 +1,52 @@
+.jumbotron {
+    height: 610px;
+    background-image: url("../images/disney.jpeg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+
+
+}
+
+#disney {
+    color: white;
+    font-size: 40px;
+    opacity: 0.6;
+    font-family: 'Rock Salt', cursive;
+    text-align: right;
+    margin-right: -40px;
+
+}
+
+#quote {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: right;
+    margin-right: -100px;
+}
+
+
+#search {
+text-align: center;
+}
+
+#submitButton {
+text-align: center;
+margin-top: -30px;
+padding: 8px;
+background-color: rgb(240, 137, 180);
+color: white;
+}
+
+#disney-movies{
+    column-count:5;
+    margin-top: 10px;
+}
+
+.movie{
+    background-color: rgb(98, 143, 238);
+    color: white;
+    padding: 7px;
+
+}
